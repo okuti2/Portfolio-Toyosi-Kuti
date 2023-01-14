@@ -1,0 +1,79 @@
+
+.button-small {
+    border-radius: 25px;
+    display: inline-block;
+    float: left;
+    font-size: medium;
+    font-weight: bold;
+    margin: 0.9rem 1rem;
+    padding: 1rem 2rem;
+}
+
+.hero-title{
+    font-family: 'Aclonica';font-size: 22px;
+}
+.socials .ico-circle {
+    height: 40px;
+    width: 40px;
+    font-size: 1.2rem;
+    border-radius: 50%;
+    line-height: 1.6;
+    margin: 0 15px 0 0;
+    box-shadow: 0 0 0 3px #0078ff;
+    transition: all 500ms ease;
+  }
+
+.icon:hover {
+    color: #1e1e1e;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+  }
+  
+.icon {
+    color: #0078ff;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+}
+
+.headers .nav-link{
+    font-family: 'Aclonica';
+    font-size:x-small;
+    
+}
+
+.headsocials {
+    padding: 1.5rem 0;
+  }
+  
+  .headsocials ul li {
+    display: inline-block;
+  }
+  
+  .headsocials .ico-circle {
+    height: 30px;
+    width: 30px;
+    font-size: 1.2rem;
+    border-radius: 50%;
+    line-height: 1.6;
+    margin: 40px 15px 0 0;
+    box-shadow: 0 0 0 3px #0078ff;
+    transition: all 500ms ease;
+  }
+  
+  .headsocials .ico-circle:hover {
+    background-color: #0078ff;
+    color: #fff;
+    box-shadow: 0 0 0 3px #cde1f8;
+    transition: all 500ms ease;
+  }
+
+  .navbar a,
+  .navbar a:focus {
+    font-size: x-small;
+  }
+
+/*.about-me{
+    margin: auto;
+    width: 55%;
+    text-align: center
+}*/
