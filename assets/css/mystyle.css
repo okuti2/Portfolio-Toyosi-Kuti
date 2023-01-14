@@ -13,13 +13,13 @@
     font-family: 'Aclonica';font-size: 22px;
 }
 .socials .ico-circle {
-    height: 40px;
-    width: 40px;
+    height: 30px;
+    width: 30px;
     font-size: 1.2rem;
     border-radius: 50%;
     line-height: 1.6;
     margin: 0 15px 0 0;
-    box-shadow: 0 0 0 3px #0078ff;
+    box-shadow: 0 0 0 1px #0078ff;
     transition: all 500ms ease;
   }
 
@@ -30,7 +30,8 @@
   }
   
 .icon {
-    color: #0078ff;
+   /* color: #0078ff; */
+    color: cadetblue;
     text-decoration: none;
     transition: all 0.5s ease-in-out;
 }
@@ -50,12 +51,12 @@
   }
   
   .headsocials .ico-circle {
-    height: 30px;
-    width: 30px;
-    font-size: 1.2rem;
+    height: 45.5px;
+    width: 45.5px;
+    font-size: 30px;
     border-radius: 50%;
-    line-height: 1.6;
-    margin: 40px 15px 0 0;
+    line-height: 1.4;
+    margin: 0 15px 0 0;
     box-shadow: 0 0 0 3px #0078ff;
     transition: all 500ms ease;
   }
