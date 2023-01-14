@@ -44,13 +44,13 @@
 
 .headsocials {
     padding: 1.5rem 0;
-  }
+}
   
-  .headsocials ul li {
+.headsocials ul li {
     display: inline-block;
-  }
+}
   
-  .headsocials .ico-circle {
+.headsocials .ico-circle {
     height: 45.5px;
     width: 45.5px;
     font-size: 30px;
@@ -59,19 +59,38 @@
     margin: 0 15px 0 0;
     box-shadow: 0 0 0 3px #0078ff;
     transition: all 500ms ease;
-  }
+}
   
-  .headsocials .ico-circle:hover {
+.headsocials .ico-circle:hover {
     background-color: #0078ff;
     color: #fff;
     box-shadow: 0 0 0 3px #cde1f8;
     transition: all 500ms ease;
-  }
+}
 
-  .navbar a,
-  .navbar a:focus {
+.navbar a,
+.navbar a:focus {
     font-size: x-small;
-  }
+}
+
+.languages {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap
+}
+
+.languages div{
+    min-width: 90px;
+    margin-top: 1rem;
+    margin-right: 1.05rem;
+    margin-bottom: 0rem;
+    align-content: center;
+    text-align: center;
+    color: rgb(29, 28, 28);
+    border-radius: 50%;
+    border: 1px solid  #0078ff;
+}
+
 
 /*.about-me{
     margin: auto;
