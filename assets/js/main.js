@@ -232,13 +232,16 @@
   new PureCounter();
 
 //Contact Form in PHP
-const form = document.getElementByClassName(".php-email-form"),
-statusTxt = document.getElementByClassName(".button-area");
-form.addEventListener("submit", (e)=>{
+  //Contact Form in PHP
+const form = document.querySelector("form"),
+statusTxt = form.querySelector("#button-area");
+form.onsubmit = (e)=>{
   e.preventDefault();
-  console.log("INSIDE THE EVENT LISTENER")
-  statusTxt.innerHTML = "Sending your message..."
+  statusTxt.style.color = "#0D6EFD";
+  statusTxt.style.display = "block";
+  statusTxt.innerText = "Sending your message...";
   form.classList.add("disabled");
+
   let xhr = new XMLHttpRequest();
   xhr.open("POST", "message.php", true);
   xhr.onload = ()=>{
@@ -258,7 +261,7 @@ form.addEventListener("submit", (e)=>{
   }
   let formData = new FormData(form);
   xhr.send(formData);
-})
+}
 
 
 })()
