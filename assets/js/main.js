@@ -231,7 +231,6 @@
    */
   new PureCounter();
 
-//Contact Form in PHP
   //Contact Form in PHP
 const form = document.querySelector("form"),
 statusTxt = form.querySelector("#button-area");
