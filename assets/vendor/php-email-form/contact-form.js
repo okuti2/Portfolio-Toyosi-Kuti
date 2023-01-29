@@ -7,7 +7,7 @@ form.addEventListener("submit", (e)=>{
   statusTxt.innerHTML = "Sending your message..."
   form.classList.add("disabled");
   let xhr = new XMLHttpRequest();
-  xhr.open("POST", "message.php", true);
+  xhr.open("POST", "../assets/vendor/php-email-form/message.php", true);
   xhr.onload = ()=>{
     if(xhr.readyState == 4 && xhr.status == 200){
       let response = xhr.response;
